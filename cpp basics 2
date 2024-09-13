@@ -1,0 +1,59 @@
+#include<iostream>
+using namespace std;
+int main(){
+
+int ch ,num,count=0,num1;
+cout<<"Enter your choice:"<<endl;
+cin>>ch;
+switch(ch){
+	case 1:
+		cout<<"Today is monday :"<<endl;
+		break;
+	case 2:
+		cout<<"Today is tuesday :"<<endl;
+	case 3:
+		cout<<"Today is wednesday :"<<endl;
+	case 4:
+		cout<<"Today is thursday :"<<endl;
+	case 5:
+		cout<<"Today is friday  :"<<endl;
+	case 6:
+		cout<<"Today is saturday :"<<endl;
+	case 7:
+		cout<<"Today is sunday :"<<endl;
+	dafault:
+		cout<<"Enter the number: "<<endl;
+		cin>>num;
+		while(num>0){
+			num=num/10;
+			count++;
+			cout<<count<<endl;
+			
+		}
+		cout<<"Enter the number : "<<endl;
+		cin>>num1;
+		for(int i=0;i<=20;i++){
+			cout<<i<<endl;
+		}
+		int s=5;
+		do{
+			cout<<"The value of s is :"<<s<<endl;
+			s++;
+		}
+		while(s<=10);
+		
+		int age;
+		cout<<"Enter your age:"<<endl;
+		cin>>age;
+		if(age>=18){
+			cout<<"You are eligible to vote !:"<<endl;
+			
+		}
+		else{
+			cout<<"You are not eligible for voting :"<<endl;
+			
+		}
+		
+return 0;
+}
+}
